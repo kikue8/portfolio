@@ -5,7 +5,7 @@ const courses = [
     {'name':'cs130', 'img':'photos/cs130.jpg','description':'intro to the web. established a working knowledge of web design, html, css and javascript. built this website through github'},
     {'name':'jour201-1', 'img':'photos/jour201-1.jpg', 'description':'written reporting. wrote an enterprise story on hook-up culture in the lgbtq+ community at northwestern'},
     {'name':'jour201-2', 'img':'photos/jour201-2.jpeg','description':"multimedia reporting. used coding, audio, video and written reporting to uncover the disparity between men's and women's sports in higher education."},
-    {'name':'jour301', 'img':'photos/jour301.jpeg','description':'social change and urban dynamics. three months of in-depth written reporting on the pullman neighborhood of chicago. i focused specifically on education in pullman and featured the hbcu college tour program at butler college prep.'},
+    {'name':'jour301', 'img':'photos/jour301.jpeg','description':'journalism in practice. three months of in-depth written reporting on education in the  pullman neighborhood of chicago.'},
     {'name':'jour390', 'img':'photos/jour390.jpg','description':"intro to sports writing. wrote multiple beat reports and game stories on high school and college sports. also reported on the chicago sky's opening week against the atlanta dream."},
     {'name':'imc301', 'img':'photos/imc301.jpeg','description':"intro to integrated marketing communicationcs. learned the tenets of imc through case studies. worked with kohl's to curate and interpret results from a focus group."},
     {'name':'imc302', 'img':'photos/imc302.jpg','description':'marketing statistics. worked with excel and spss to analyze and produce a consumer segment for cbd use.'},
