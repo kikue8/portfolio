@@ -71,6 +71,7 @@ h1{
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    transition: 0.5s;
 }
 
 .card:hover{
@@ -123,15 +124,6 @@ a{
 
 a:hover{
     font-weight: 700;
-}
-
-footer{
-    grid-area: footer;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 #sidebar{
