@@ -230,9 +230,26 @@ p{
     .kuttler{
         display:none
     }
-    
+
     .hoffman{
-        height: 150vh;
-        width: 100vw
+        height: 250px;
+        width: 750px
+    }
+}
+
+@media screen and (max-width: 400px){ 
+    .hoffman{
+        height: 133px;
+        width: 400px
+    }
+    
+    h1{
+        font-size: 1em;
+        letter-spacing: 1px;
+    }
+    footer a{
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 15px;    
     }
 }
