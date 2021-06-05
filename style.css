@@ -231,24 +231,28 @@ p{
     }
 
     .hoffman{
-        height: 250px;
-        width: 750px
+        width: 750px;
+        height: auto
     }
 }
 
 @media screen and (max-width: 400px){ 
     .hoffman{
-        height: 133px;
-        width: 400px
+        width:400px;
+        height: auto
     }
     
     h1{
-        font-size: 1em;
+        font-size: 1.5em;
         letter-spacing: 1px;
+        margin-left: -50px;
     }
     footer a{
         padding-right: 10px;
         padding-left: 10px;
-        font-size: 15px;    
+        font-size: 13px;    
+    }
+    .fa-envelope, .fa-twitter, .fa-instagram-square, .fa-linkedin{
+        font-size: 2.5em;
     }
 }
