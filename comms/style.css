@@ -223,3 +223,29 @@ a:hover{
         background-size:cover
     }
 }
+
+@media screen and (max-width: 400px){ 
+    main {
+        height: 85vh;
+    }
+    
+    h1{
+        margin-left: 0px;
+        font-size: 1.5em;
+        letter-spacing: 0px;
+    }
+
+    .card{
+        width: 33%;
+        overflow-y: scroll;
+    }
+    
+    .featured_image {
+        background-size:cover
+    }
+
+    a{
+        font-size: 13px;
+        padding: 20px
+    }
+}
