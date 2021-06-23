@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0px;
+    color: black;
+    background-image: linear-gradient(rgb(248, 143, 143), rgb(250, 188, 74), rgb(248, 248, 143), rgb(177, 252, 177), rgb(158, 196, 247), rgb(150, 150, 253), rgb(248, 206, 248));
+}
+
+
+header{
+    padding: 5px;
+    width: 960px;
+    margin: auto
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 35.2px;
+    text-align: center;
+    text-decoration: underline wavy black 3px;
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: wavy;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.graphs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width:700px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px dashed black
+}
+
+.graphs p{
+    width: 700px;
+}
+
+main{
+    color: black;
+    padding: 10px;
+    width: 960px;
+    margin:auto
+}
+
+footer{
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 960px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+footer:hover{
+    background-image: linear-gradient(90deg, rgb(248, 143, 143), rgb(250, 188, 74), rgb(248, 248, 143), rgb(177, 252, 177), rgb(158, 196, 247), rgb(150, 150, 253));
+    color: black
+}
+
+@media screen and (max-width: 750px){ 
+    header{
+        width: 700px;
+    }
+    main{
+        width: 700px;
+        margin: 10px
+    }
+    p{
+        width: 700px;
+    }
+    footer{
+        width: 700px;
+        margin: 10px
+    }
+}
+
+@media screen and (max-width: 400px){ 
+    header{
+        width: 350px;
+    }
+    main{
+        width: 350px;
+        margin: 5px
+    }
+    p{
+        width: 350px;
+    }
+    footer{
+        width: 350px;
+    }
+    .graphs{
+        display:none;
+    }
+    
+}
+
+
