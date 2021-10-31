@@ -26,6 +26,7 @@ const images = [
     {'id': 'images/wbbohiostate.jpeg', 'url':'https://www.google.com/url?client=internal-element-cse&cx=016306950182310286156:rzggxeatszs&q=https://nusports.com/news/2021/2/1/womens-basketball-pulliam-and-burton-post-double-doubles-to-take-down-no-11-ohio-state.aspx&sa=U&ved=2ahUKEwjDiNPJn8rwAhVSVs0KHWsjBQoQFjAIegQIBhAB&usg=AOvVaw1Ct_JnVc6Jl-xQ1cK3PfMc'},
     {'id': 'images/wbbucf.jpeg', 'url':'https://www.google.com/url?client=internal-element-cse&cx=016306950182310286156:rzggxeatszs&q=https://nusports.com/news/2021/3/22/womens-basketball-northwestern-stays-at-the-big-dance.aspx&sa=U&ved=2ahUKEwjDiNPJn8rwAhVSVs0KHWsjBQoQFjAFegQIABAB&usg=AOvVaw2rDwUgy5dfK0NcK9BesQH5'},
     {'id': 'images/wbbvburton.jpeg', 'url':'https://www.google.com/url?client=internal-element-cse&cx=016306950182310286156:rzggxeatszs&q=https://nusports.com/news/2020/11/24/womens-basketball-veronica-burton-hungry-for-more-ahead-of-junior-campaign.aspx&sa=U&ved=2ahUKEwjDiNPJn8rwAhVSVs0KHWsjBQoQFjAGegQIBBAB&usg=AOvVaw2LKOOF5jwe57-0TgoQODpA'},
+    {'id': 'images/zimmer.jpeg', 'url':'https://nusports.com/news/2021/10/31/field-hockey-wildcats-close-out-regular-season-with-6-0-win.aspx'},
 ];
 
 currentIndex = 0
