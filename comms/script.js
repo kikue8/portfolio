@@ -28,6 +28,8 @@ const images = [
     {'id': 'images/wbbvburton.jpeg', 'url':'https://www.google.com/url?client=internal-element-cse&cx=016306950182310286156:rzggxeatszs&q=https://nusports.com/news/2020/11/24/womens-basketball-veronica-burton-hungry-for-more-ahead-of-junior-campaign.aspx&sa=U&ved=2ahUKEwjDiNPJn8rwAhVSVs0KHWsjBQoQFjAGegQIBBAB&usg=AOvVaw2LKOOF5jwe57-0TgoQODpA'},
     {'id': 'images/zimmer.jpeg', 'url':'https://nusports.com/news/2021/10/31/field-hockey-wildcats-close-out-regular-season-with-6-0-win.aspx'},
     {'id': 'images/team.jpeg', 'url':'https://nusports.com/news/2021/11/3/field-hockey-cats-prepare-for-competitive-big-ten-tournament.aspx'},
+    {'id': 'images/celebration.jpeg', 'url':'https://nusports.com/news/2021/11/19/field-hockey-cats-advance-to-national-championship.aspx'},
+    {'id': 'images/baekers.jpeg', 'url':'https://nusports.com/news/2021/11/20/field-hockey-cats-set-to-face-liberty-in-ncaa-championship.aspx'},
 ];
 
 currentIndex = 0
