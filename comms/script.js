@@ -64,7 +64,7 @@ for (const elem of imageElements) {
 //next and previous click events
 const nextImage = (ev) => {
     currentIndex += 1;
-    if (currentIndex > 10){
+    if (currentIndex > 11){
         currentIndex = 0
     };
     const image = (imageElements[currentIndex]);
@@ -75,7 +75,7 @@ const nextImage = (ev) => {
 const previousImage = (ev) => {
     currentIndex -= 1;
     if (currentIndex < 0){
-        currentIndex = 10
+        currentIndex = 11
     };
     const image = (imageElements[currentIndex]);
     document.querySelector('.featured_image').style.backgroundImage = image.style.backgroundImage
