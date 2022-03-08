@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0px
+}
+
+main{
+    width: 960px;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+header{
+    text-align: center
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    margin: 15px
+}
+
+header h3{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+  
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: black;
+}
+  
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+
+.dropdown-content a{
+    float: none;
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+img{
+    width: 960px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr{
+    width: 960px;
+    height: 3px;
+    background-color: #333;
+    border: 0.5px solid #333;
+    margin: 3px;
+}
+
+h3 + hr{
+    width: 960px;
+    height: 3px;
+    background-color: #333;
+    border: 0.5px solid #333;
+    margin-bottom: 10px;
+}
+
+p + hr{
+    width: 960px;
+    height: 1px;
+    background-color: #333;
+    border: 0.5px solid #333;
+    margin-bottom: 10px;
+}
+
+#observations{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#implications{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h4{
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 960px;
+}
+
+footer{
+    width: 960px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+    align-items: center;
+}
+
+.button{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #333;
+    text-align:center
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 17px
+}
+
+.button:hover{
+    background-color: black;
+}
+
+@media screen and (max-width: 750px){ 
+    main{
+        width: 730px;
+        margin: 10px
+    }
+    p{
+        width: 730px;
+    }
+    hr{
+        width: 730px;
+    }
+    footer{
+        width: 730px;
+        margin: 10px
+    }
+    img{
+        width: 730px;
+    }
+}
+
+@media screen and (max-width: 400px){ 
+    main{
+        width: 390px;
+        margin: 5px
+    }
+    p{
+        width: 390px;
+    }
+    hr{
+        width: 390px;
+        margin: 0px;
+        margin-bottom: 2px;
+    }
+    footer{
+        width: 390px;
+        flex-direction: column;
+    }
+    .button{
+        margin: 2px;
+    }
+    img{
+        width: 390px;
+    }
+}
+

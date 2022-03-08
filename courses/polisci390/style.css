@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0px;
+}
+  
+.parallax{
+    background-image: url('parallax.jpg');
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gradient{
+    background-image:linear-gradient(rgba(238, 237, 237, 0.1), rgba(2, 2, 2, 1.5)),
+    url('parallax.jpg');
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    margin: 10px;
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px
+}
+
+h3{
+    text-align:center;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px
+}
+
+article{
+    text-align: justify;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 18px
+}
+
+.source{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    width: 48%
+}
+
+.photo{
+    width: 52%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background: #D4D4D4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: all .2s ease;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer:hover{
+    background: black;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 1200px){ 
+    .source{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 750px){ 
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .source{
+        width: 100%;
+    }
+}

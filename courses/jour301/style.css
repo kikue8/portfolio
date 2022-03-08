@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body{
+    margin: 0px;
+    color: black;
+    background-image: linear-gradient(#AAB6B5, #CBD0B9);
+}
+
+
+header{
+    padding: 5px;
+    width: 960px;
+    margin: auto
+}
+
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 47px;
+    margin-bottom: 10px
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    text-align:right;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+hr{
+    background-color: black;
+    height: 2px;
+    border: 0.5px solid black;
+}
+
+header p{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+main{
+    color: black;
+    padding: 10px;
+    width: 960px;
+    margin:auto
+}
+
+footer{
+    width: 960px;
+    margin: auto;
+    margin-bottom: 5px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    background-color: black;
+    padding: 10px;
+    font-weight: 300;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+footer:hover{
+    background-color: #AAB6B5;
+    font-weight: 500
+}
+
+@media screen and (max-width: 750px){ 
+    main{
+        width: 700px;
+    }
+    p{
+        width: 700px;
+    }
+    header{
+        width: 700px;
+    }
+    footer{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 400px){ 
+    main{
+        width: 375px;
+    }
+    p{
+        width: 375px;
+    }
+    header{
+        width: 375px;
+    }
+    footer{
+        width: 375px;
+    }
+}
