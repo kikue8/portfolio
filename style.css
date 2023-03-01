@@ -92,13 +92,13 @@ footer a:hover{
     transform: scaleY(1.1);
 }
 
-.fa-twitter, .fa-instagram-square, .fa-linkedin{
+.fa-twitter, .fa-camera, .fa-linkedin{
     font-size: 3em;
     color: #D4D4D4;
     padding-right: 40px;
 }
 
-.fa-envelope:hover, .fa-twitter:hover, .fa-instagram-square:hover, .fa-linkedin:hover{
+.fa-envelope:hover, .fa-twitter:hover, .fa-camera:hover, .fa-linkedin:hover{
     color: black;
     transition: all .2s ease;
 }
@@ -197,7 +197,7 @@ p{
     font-weight: 700;
 }
 
-.fa-times{
+.fa-x{
     padding-right: 20px;
     text-align: right;
     font-size: 2em;
@@ -253,7 +253,7 @@ p{
         padding-left: 10px;
         font-size: 13px;    
     }
-    .fa-envelope, .fa-twitter, .fa-instagram-square, .fa-linkedin{
+    .fa-envelope, .fa-twitter, .fa-camera, .fa-linkedin{
         font-size: 2.5em;
     }
 }
