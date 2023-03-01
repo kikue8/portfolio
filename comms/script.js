@@ -14,7 +14,7 @@ const closeNav = (ev) =>{
 }
 
 document.querySelector(".fa-bars").onclick = openNav;
-document.querySelector(".fa-times").onclick = closeNav;
+document.querySelector(".fa-x").onclick = closeNav;
 document.querySelector("#sidebar, .selected").onclick = closeNav;
 
 //images
